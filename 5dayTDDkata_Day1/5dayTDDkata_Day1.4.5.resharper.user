@@ -1,0 +1,30 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="13" fromTop="0" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:DuplicateTaxesException.cs" caret="0" fromTop="0" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:InvalidTaxDateRangeException.cs" caret="0" fromTop="0" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:OverlappingTaxTypesException.cs" caret="0" fromTop="0" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Tax.cs" caret="0" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:CityTests.cs" caret="13" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxTests.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:CityTests.cs" caret="13" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxTests.cs" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>
