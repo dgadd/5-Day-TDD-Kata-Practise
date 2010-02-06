@@ -6,12 +6,31 @@ namespace Gaddzeit.Kata.Domain
 {
     public class TaxesService : ITaxesService
     {
+        private readonly List<Tax> _taxes;
+
         public TaxesService()
         {
-            Taxes = new List<Tax>();
+            _taxes = new List<Tax>();
         }
 
-        public List<Tax> Taxes { get; private set; }
+        public List<Tax> Taxes
+        {
+            get
+            {
+                return _taxes;
+            }
+        }
+
+        public List<Tax> TaxesByJurisdiction(JurisdictionEnum jurisdiction)
+        {
+            var taxesByJurisdiction = new List<Tax>();
+            foreach (var tax in _taxes)
+            {
+                if (tax.Jurisdiction.Equals(jurisdiction))
+                    taxesByJurisdiction.Add(tax);
+            }
+            return taxesByJurisdiction;
+        }
 
         public void AddTax(Tax tax)
         {

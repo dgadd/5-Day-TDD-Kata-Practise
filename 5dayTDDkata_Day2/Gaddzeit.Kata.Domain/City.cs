@@ -12,10 +12,15 @@ namespace Gaddzeit.Kata.Domain
         {
             _name = name;
             _taxesService = taxesService;
-            Taxes = new List<Tax>();
         }
 
-        public List<Tax> Taxes { get; private set; }
+        public List<Tax> Taxes
+        {
+            get
+            {
+                return _taxesService.TaxesByJurisdiction(JurisdictionEnum.City);
+            }
+        }
 
         public void AddTax(Tax tax)
         {

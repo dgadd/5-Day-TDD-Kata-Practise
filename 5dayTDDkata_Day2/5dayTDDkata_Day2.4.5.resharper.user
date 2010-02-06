@@ -13,12 +13,111 @@
     <RecentFiles>
       <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxTests.cs" caret="0" fromTop="0" />
       <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:CountryTests.cs" caret="186" fromTop="10" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:CityTests.cs" caret="472" fromTop="18" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="652" fromTop="24" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ProvinceState.cs" caret="466" fromTop="19" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ITaxesService.cs" caret="198" fromTop="8" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="661" fromTop="19" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Country.cs" caret="494" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="1251" fromTop="34" />
     </RecentFiles>
     <RecentEdits>
-      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:CountryTests.cs" caret="186" fromTop="10" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="2482" fromTop="28" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="1737" fromTop="15" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="202" fromTop="8" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ProvinceState.cs" caret="199" fromTop="7" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Country.cs" caret="194" fromTop="7" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="2655" fromTop="18" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="310" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="103" fromTop="4" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="2335" fromTop="17" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="204" fromTop="9" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="1791" fromTop="26" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="310" fromTop="15" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="310" fromTop="15" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="1070" fromTop="32" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="152" fromTop="6" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ITaxesService.cs" caret="176" fromTop="7" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="445" fromTop="23" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxesService.cs" caret="821" fromTop="32" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="370" fromTop="13" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="370" fromTop="17" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="370" fromTop="13" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:City.cs" caret="652" fromTop="24" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ProvinceState.cs" caret="350" fromTop="14" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ProvinceState.cs" caret="641" fromTop="26" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:ProvinceState.cs" caret="512" fromTop="19" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Country.cs" caret="338" fromTop="14" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Country.cs" caret="623" fromTop="25" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Country.cs" caret="494" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="2655" fromTop="18" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="2459" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
     <Providers />
   </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@Gaddzeit.Kata.Domain.JurisdictionEnum">
+      <Item value="ProvinceState" priority="1" />
+      <Item value="City" priority="0" />
+      <Item value="Country" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="Assert" priority="0" />
+      <Item value="city" priority="0" />
+      <Item value="provinceState" priority="1" />
+      <Item value="country" priority="1" />
+      <Item value="_mockTaxesService" priority="2" />
+      <Item value="Expect" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="List" priority="4" />
+      <Item value="Tax" priority="4" />
+      <Item value="_taxes" priority="1" />
+      <Item value="new" priority="4" />
+      <Item value="List&lt;Tax&gt;" priority="3" />
+      <Item value="taxes" priority="0" />
+      <Item value="TaxesService" priority="2" />
+      <Item value="taxesService" priority="0" />
+      <Item value="JurisdictionEnum" priority="1" />
+      <Item value="jurisdictionEnum" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="tax" priority="0" />
+      <Item value="jurisdiction" priority="0" />
+      <Item value="taxesByJurisdiction" priority="1" />
+      <Item value="return" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsTrue" priority="1" />
+      <Item value="AreEqual" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.City">
+      <Item value="Taxes" priority="0" />
+      <Item value="TaxesService" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="0" />
+      <Item value="AsReadOnly" priority="0" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.ITaxesService">
+      <Item value="Taxes" priority="3" />
+      <Item value="TaxesByJurisdiction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="Call" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return" priority="0" />
+      <Item value="IgnoreArguments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.Tax">
+      <Item value="Jurisdiction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.JurisdictionEnum">
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
