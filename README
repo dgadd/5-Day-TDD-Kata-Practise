@@ -16,7 +16,7 @@ Below is the initial outline. Over the next 5 days I will do the kata, and adjus
 Summary
 DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
 DAY 2: TEASING OUT DOMAIN OBJECT: ITaxesService
-DAY 3: INVOICE ITEMS ARE TAXED CUMULATIVELY
+DAY 3: INVOICE APPLIES TAXES TO ITEMS VIA ITaxesService
 DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS, DISPLAYS VALIDATION ERRORS
 DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS, DISPLAYS VALIDATION ERRORS
 
@@ -49,14 +49,18 @@ DAY 2: TEASING OUT DOMAIN OBJECT: ITaxesService
   14. For extra points: Create a test which instantiates City, Province, and Country, injecting each with a common stub of ITaxesService and adding a tax from each jurisdiction. Validate that 3 taxes have been added to ITaxesService stub. Also validate that each class' Taxes collection returns only taxes for that jurisdiction.
 
 
-[yet to be written/revised]:
+DAY 3: INVOICE APPLIES TAXES TO ITEMS VIA ITaxesService
 
-DAY 3: INVOICE ITEMS ARE TAXED CUMULATIVELY
-
-   1. Use List stub with 3 taxes.
-   2. Confirm that Invoice adds InvoiceItem.
-   3. Confirm that Invoice.Subtotal = sum of InvoiceItem.Amount
-   4. Confirm that Invoice.CumulativeTaxesTotal is cumulative of the tax amounts.
+   1. Add new instance variable to Tax: int Percent. Add Percent to constructor. Include percent in instance equality. Fix all tests. Add test to reject 0 percent as constructor parameter.
+   2. Create InvoiceTests class.
+   3. In Setup, create ITaxesService stub with taxes from 3 jurisdictions.
+   4. Inject ITaxesService into Invoice constructor. Validate that Invoice.Taxes equals ITaxesService.Taxes.
+   5. Create InvoiceItemTests. Verify that InvoiceItem is constructed with quantity and amount parameters, values shoudl match properties InvoiceItem.Quantity and InvoiceItem.Amount. (Product and/or Description are outside scope of this kata.)
+   6. Submitting 0 to quantity or amount throws exception, but object equality is not required. 
+   7. Return to InvoiceTests. Validate that when Invoice adds InvoiceItems, that TotalItemQuantity matches sum of Items quantity.
+   8. Invoice SubTotal matches sum of (Quantity * Amount)
+   9. Invoice has multiple TaxCalculations, each has Tax and Amount properties. Validate that each TaxCalculation.Amount = SubTotal * Tax.Percent / 100 (eg. 20.00 * 5 * .01 = 1.00).
+  10. Invoice Total matches Invoice.SubTotal + sum of (Invoice.TaxCalculations).
 
 
 DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS, DISPLAYS VALIDATION ERRORS 
@@ -71,5 +75,6 @@ DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS, DISPLAYS VALIDATION ERRO
    1. Mock IInvoiceRepository and IInvoiceView 
    2. Validate that AddInvoiceLineItem event adds LineItem to repository and returns incremented list of items.
    3. Validate that exceptions are assigned to ExceptionDisplay string.
+
 
 [end]

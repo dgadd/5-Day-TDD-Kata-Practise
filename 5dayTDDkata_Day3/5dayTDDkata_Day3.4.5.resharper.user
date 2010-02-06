@@ -1,0 +1,129 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Tax.cs" caret="0" fromTop="0" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxCalculation.cs" caret="111" fromTop="6" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="2079" fromTop="24" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceItemTests.cs" caret="0" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="6" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="1703" fromTop="17" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="3700" fromTop="31" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxCalculation.cs" caret="47" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="394" fromTop="7" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="595" fromTop="15" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="2933" fromTop="18" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:TaxCalculation.cs" caret="177" fromTop="9" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="2914" fromTop="15" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="2914" fromTop="14" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="1361" fromTop="26" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="1528" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="810" fromTop="27" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="1074" fromTop="31" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="1329" fromTop="35" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="2842" fromTop="17" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="1649" fromTop="23" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="937" fromTop="13" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="2336" fromTop="9" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="2855" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="3282" fromTop="16" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="3450" fromTop="21" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="2079" fromTop="24" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="3282" fromTop="18" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceItemTests.cs" caret="0" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoiceTests.cs" caret="13" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="1" />
+      <Item value="void" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="GetInvoice" priority="0" />
+      <Item value="foreach" priority="4" />
+      <Item value="invoice" priority="5" />
+      <Item value="taxCalculation" priority="14" />
+      <Item value="Domain" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="TaxCalculation" priority="5" />
+      <Item value="if" priority="2" />
+      <Item value="city" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="City" priority="0" />
+      <Item value="ProvinceState" priority="1" />
+      <Item value="Country" priority="1" />
+      <Item value="_city" priority="1" />
+      <Item value="cityTax" priority="1" />
+      <Item value="Tax" priority="1" />
+      <Item value="Assert" priority="2" />
+      <Item value="SequentialAttribute" priority="0" />
+      <Item value="case" priority="1" />
+      <Item value="JurisdictionEnum" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="_taxesService" priority="0" />
+      <Item value="new" priority="2" />
+      <Item value="taxCalculations" priority="2" />
+      <Item value="List&lt;TaxCalculation&gt;" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="tax" priority="3" />
+      <Item value="InvoiceItem" priority="0" />
+      <Item value="invoiceItem" priority="2" />
+      <Item value="in" priority="1" />
+      <Item value="_invoiceItems" priority="0" />
+      <Item value="decimal" priority="1" />
+      <Item value="percent" priority="0" />
+      <Item value="expectedAmount" priority="4" />
+      <Item value="this" priority="1" />
+      <Item value="total" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.City">
+      <Item value="Taxes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.Tax">
+      <Item value="TaxType" priority="1" />
+      <Item value="Jurisdiction" priority="0" />
+      <Item value="Percent" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.TaxCalculation">
+      <Item value="Tax" priority="3" />
+      <Item value="Amount" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Gaddzeit.Kata.Domain.JurisdictionEnum">
+      <Item value="Country" priority="1" />
+      <Item value="ProvinceState" priority="0" />
+      <Item value="Unspecified" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.ITaxesService">
+      <Item value="Taxes" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.InvoiceItem">
+      <Item value="Amount" priority="0" />
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.Invoice">
+      <Item value="SubTotal" priority="4" />
+      <Item value="TaxCalculations" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
