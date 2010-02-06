@@ -1,0 +1,75 @@
+﻿README
+5 Day TDD Kata: From Single Class, to Teasing Out Domain, to Model-View-Presenter with Mocks
+David Gadd
+February 3, 2010
+Email: gaddzeit@yahoo.ca
+URL: http://codingsolutions.blogspot.com/2010/02/5-day-tdd-kata.html
+
+While the Calculator kata (see http://osherove.com/tdd-kata-1/) has been tremendously beneficial, I am wanting to experiment with a larger TDD kata that attempts test coverage at 3 levels:
+
+   1. For a single class.
+   2. For teasing out 1 or more objects in the domain.
+   3. For testing presenter with mocks, in Model-View-Presenter, using the newly-created domain.
+
+Below is the initial outline. Over the next 5 days I will do the kata, and adjust the instructions for each day as the design becomes clearer.
+
+Summary
+DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
+DAY 2: TEASING OUT DOMAIN OBJECT: ITaxesService
+DAY 3: INVOICE ITEMS ARE TAXED CUMULATIVELY
+DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS, DISPLAYS VALIDATION ERRORS
+DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS, DISPLAYS VALIDATION ERRORS
+
+Detail
+DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
+
+   1. Tax must be created with its 3 properties: TaxType, StartDate, and EndDate, none of which can be null.
+   2. StartDate must be less than EndDate
+   3. Equality is based on the 3 properties together
+   4. City has Taxes.
+   5. City rejects duplicate Taxes (by object equality.)
+   6. City rejects overlapping taxes (EndDate > other tax start date) for a given TaxType.
+
+
+DAY 2: TEASING OUT DOMAIN OBJECT: ITaxesService
+
+   1. Create JurisdictionEnum { City, State, Country }
+   2. Alter TaxesTest test methods to now test for Jurisdiction as required 4th Tax property. 
+   3. Add new constructor parameter to City: ITaxesService, so that City constructor calls in CityTests will no longer compile.
+   4. Comment out ALL public and private methods in City, so that the Add(Tax tax) method call in CityTests will no longer compile.
+   5. Since the tests no longer compile, comment out all test methods in the CityTests class.
+   6. Reference a mocking framework and add a using statement to CityTests class.
+   7. Create new test in CityTests which verifies that when City is asked to AddTax(), that it delegates tax adding to the mocked ITaxesService. City should be agnostic to tax storage.
+   8. Create new test in ProvinceTests which verifies that when Province is asked to AddTax(), that it delegates tax adding to the mocked ITaxesService. Province should be agnostic to tax storage.
+   9. Create new test in CountryTests which verifies that when Country is asked to AddTax(), that it delegates tax adding to the mocked ITaxesService. Country should be agnostic to tax storage.
+  10. Create a TaxesServiceTests class.
+  11. Move the commented-out CityTest methods to TaxesServiceTests class and repurpose them to address the TaxesService.Add() method and Taxes property. 
+  12. Notes: When creating TaxesService, make it implement ITaxesService, and use a parameterless constructor. Remember to move the commented out public and private methods from City class to the new TaxesService class--you'll need them for the tests to pass.
+  13. Validate that tax duplication checking logic now constrains on BOTH TaxType AND Jurisdiction.
+  14. For extra points: Create a test which instantiates City, Province, and Country, injecting each with a common stub of ITaxesService and adding a tax from each jurisdiction. Validate that 3 taxes have been added to ITaxesService stub. Also validate that each class' Taxes collection returns only taxes for that jurisdiction.
+
+
+[yet to be written/revised]:
+
+DAY 3: INVOICE ITEMS ARE TAXED CUMULATIVELY
+
+   1. Use List stub with 3 taxes.
+   2. Confirm that Invoice adds InvoiceItem.
+   3. Confirm that Invoice.Subtotal = sum of InvoiceItem.Amount
+   4. Confirm that Invoice.CumulativeTaxesTotal is cumulative of the tax amounts.
+
+
+DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS, DISPLAYS VALIDATION ERRORS 
+
+   1. Mock ITaxesRepository and ITaxesView
+   2. Validate that AddTax event adds City or State tax to repository and returns incremented list of taxes
+   3. Validate that exceptions are assigned to ExceptionDisplay string.
+
+
+DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS, DISPLAYS VALIDATION ERRORS 
+
+   1. Mock IInvoiceRepository and IInvoiceView 
+   2. Validate that AddInvoiceLineItem event adds LineItem to repository and returns incremented list of items.
+   3. Validate that exceptions are assigned to ExceptionDisplay string.
+
+[end]
