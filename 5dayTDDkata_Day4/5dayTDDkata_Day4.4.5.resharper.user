@@ -1,0 +1,84 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="NUnit.Framework" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Rhino.Mocks" priority="0" />
+      <Item value="TestFixture" priority="0" />
+      <Item value="void" priority="2" />
+      <Item value="private" priority="2" />
+      <Item value="MockRepository" priority="1" />
+      <Item value="_mockRepository" priority="6" />
+      <Item value="View" priority="0" />
+      <Item value="SetUp" priority="0" />
+      <Item value="public" priority="1" />
+      <Item value="new" priority="2" />
+      <Item value="_mockTaxesService" priority="3" />
+      <Item value="ITaxesService" priority="0" />
+      <Item value="_mockTaxesView" priority="3" />
+      <Item value="ITaxesView" priority="0" />
+      <Item value="TearDown" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="LastCall" priority="0" />
+      <Item value="Expect" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="Tax" priority="0" />
+      <Item value="List&lt;Tax&gt;" priority="0" />
+      <Item value="taxes" priority="0" />
+      <Item value="taxesPresenter" priority="0" />
+      <Item value="TaxesPresenter" priority="0" />
+      <Item value="Presenter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="StrictMock" priority="1" />
+      <Item value="ReplayAll" priority="1" />
+      <Item value="VerifyAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.LastCall">
+      <Item value="IgnoreArguments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="GetEventRaiser" priority="0" />
+      <Item value="Return" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.ITaxesService">
+      <Item value="Taxes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="Call" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesServiceTests.cs" caret="0" fromTop="0" />
+      <File id="EBBD2262-9FF4-4BF0-8E29-5A7B6145BDEC/f:ITaxesView.cs" caret="211" fromTop="9" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="1395" fromTop="17" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:TaxesPresenter.cs" caret="224" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EBBD2262-9FF4-4BF0-8E29-5A7B6145BDEC/f:ITaxesView.cs" caret="109" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="807" fromTop="23" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="1398" fromTop="10" />
+      <File id="EBBD2262-9FF4-4BF0-8E29-5A7B6145BDEC/f:ITaxesView.cs" caret="209" fromTop="9" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="898" fromTop="4" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="1332" fromTop="14" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="1395" fromTop="17" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:TaxesPresenter.cs" caret="91" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

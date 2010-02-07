@@ -17,8 +17,8 @@ Summary
 DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
 DAY 2: TEASING OUT DOMAIN OBJECT: ITaxesService
 DAY 3: INVOICE APPLIES TAXES TO ITEMS VIA ITaxesService
-DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS, DISPLAYS VALIDATION ERRORS
-DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS, DISPLAYS VALIDATION ERRORS
+DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS
+DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS
 
 Detail
 DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
@@ -63,14 +63,20 @@ DAY 3: INVOICE APPLIES TAXES TO ITEMS VIA ITaxesService
   10. Invoice Total matches Invoice.SubTotal + sum of (Invoice.TaxCalculations).
 
 
-DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS, DISPLAYS VALIDATION ERRORS 
+DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS 
 
-   1. Mock ITaxesRepository and ITaxesView
-   2. Validate that AddTax event adds City or State tax to repository and returns incremented list of taxes
-   3. Validate that exceptions are assigned to ExceptionDisplay string.
+   1. Create namespaces for Presenter and View.
+   2. Create TaxesPresenterTests with mocked ITaxesService and ITaxesView.
+   3. Create ITaxesView.ShowTaxes event with default EventHandler. Verify that TaxesPresenter attaches an event handler to ShowTaxes in its constructor.
+   4. Verify that the view's ShowTaxes event, when raised, is handled by TaxesPresenter's event handler, which should assign ITaxesService.Taxes to ITaxesView.TaxesDisplay.
+   5. Create ITaxesView.AddTax event with default EventHandler. Update your first and second tests to verify that TaxPresenter's constructor now also assigns the event handler for AddTaxEvent.
+   6. Verify that when AddTax event is raised, it is handled by TaxesPresenter's event handler as follows:
+      a) Each required Tax constructor parameter exists as a get property of ITaxesView, and each of those properties is called (returning a value specified in the mock).
+      b) it creates Tax instance with the property values assigned to the mock.
+      c) it calls ITaxesService.AddTax() to add the Tax.
+      d) it refreshes ITaxesView.TaxesDisplay from ITaxesService.Taxes, which includes the just-added Tax instance.
 
-
-DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS, DISPLAYS VALIDATION ERRORS 
+DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS
 
    1. Mock IInvoiceRepository and IInvoiceView 
    2. Validate that AddInvoiceLineItem event adds LineItem to repository and returns incremented list of items.
