@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2654583E-EFAF-4BAE-A54A-F7974B57C5BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gaddzeit.Kata.Tests.Unit</RootNamespace>
+    <AssemblyName>Gaddzeit.Kata.Tests.Unit</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\3rd_Party_DLLs\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\3rd_Party_DLLs\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CityTests.cs" />
+    <Compile Include="CustomerTests.cs" />
+    <Compile Include="InvoiceItemTests.cs" />
+    <Compile Include="InvoicePresenterTests.cs" />
+    <Compile Include="InvoiceTests.cs" />
+    <Compile Include="TaxesPresenterTests.cs" />
+    <Compile Include="TaxesServiceTests.cs" />
+    <Compile Include="CountryTests.cs" />
+    <Compile Include="ProvinceStateTests.cs" />
+    <Compile Include="TaxTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gaddzeit.Kata.Domain\Gaddzeit.Kata.Domain.csproj">
+      <Project>{C9190C04-1852-4E75-8F8B-AD433FCAB3A6}</Project>
+      <Name>Gaddzeit.Kata.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gaddzeit.Kata.Presenter\Gaddzeit.Kata.Presenter.csproj">
+      <Project>{4851CB35-A23E-4166-9C8E-18C2CD764649}</Project>
+      <Name>Gaddzeit.Kata.Presenter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gaddzeit.Kata.Repository\Gaddzeit.Kata.Repository.csproj">
+      <Project>{EF0D2E5D-C7F6-4A4C-BF2A-0C47F100555F}</Project>
+      <Name>Gaddzeit.Kata.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gaddzeit.Kata.View\Gaddzeit.Kata.View.csproj">
+      <Project>{EBBD2262-9FF4-4BF0-8E29-5A7B6145BDEC}</Project>
+      <Name>Gaddzeit.Kata.View</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

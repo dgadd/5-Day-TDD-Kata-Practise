@@ -1,0 +1,214 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:CustomerTests.cs" caret="534" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:TaxesPresenterTests.cs" caret="0" fromTop="0" />
+      <File id="EF0D2E5D-C7F6-4A4C-BF2A-0C47F100555F/f:ICustomerRepository.cs" caret="154" fromTop="6" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Customer.cs" caret="435" fromTop="20" />
+      <File id="EF0D2E5D-C7F6-4A4C-BF2A-0C47F100555F/f:ITaxesRepository.cs" caret="135" fromTop="5" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Tax.cs" caret="1290" fromTop="1" />
+      <File id="EBBD2262-9FF4-4BF0-8E29-5A7B6145BDEC/f:IInvoiceView.cs" caret="682" fromTop="20" />
+      <File id="EF0D2E5D-C7F6-4A4C-BF2A-0C47F100555F/f:IInvoiceRepository.cs" caret="130" fromTop="6" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="1397" fromTop="13" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:InvoiceItem.cs" caret="899" fromTop="22" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="2241" fromTop="0" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="6809" fromTop="32" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="2570" fromTop="27" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="2697" fromTop="16" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="3401" fromTop="14" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="4121" fromTop="25" />
+      <File id="EF0D2E5D-C7F6-4A4C-BF2A-0C47F100555F/f:ITaxesRepository.cs" caret="135" fromTop="5" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="2346" fromTop="28" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="279" fromTop="10" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="4253" fromTop="19" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:InvoiceItem.cs" caret="1059" fromTop="32" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:InvoiceItem.cs" caret="1046" fromTop="25" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="4634" fromTop="6" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="4933" fromTop="13" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="5338" fromTop="26" />
+      <File id="EBBD2262-9FF4-4BF0-8E29-5A7B6145BDEC/f:IInvoiceView.cs" caret="599" fromTop="18" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="5443" fromTop="22" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="1829" fromTop="27" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="1713" fromTop="24" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="450" fromTop="12" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="2155" fromTop="27" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="5818" fromTop="10" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="6205" fromTop="19" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="6577" fromTop="24" />
+      <File id="2654583E-EFAF-4BAE-A54A-F7974B57C5BE/f:InvoicePresenterTests.cs" caret="6502" fromTop="24" />
+      <File id="4851CB35-A23E-4166-9C8E-18C2CD764649/f:InvoicePresenter.cs" caret="1397" fromTop="13" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="3098" fromTop="90" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:InvoiceItem.cs" caret="899" fromTop="22" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="3023" fromTop="96" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="3096" fromTop="24" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="3336" fromTop="28" />
+      <File id="C9190C04-1852-4E75-8F8B-AD433FCAB3A6/f:Invoice.cs" caret="3507" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="2" />
+      <Item value="NUnit.Framework" priority="1" />
+      <Item value="TestFixture" priority="1" />
+      <Item value="public" priority="5" />
+      <Item value="void" priority="4" />
+      <Item value="CustomerAddsAnInvoiceAndInvoiceIncrements" priority="0" />
+      <Item value="new" priority="11" />
+      <Item value="Customer" priority="2" />
+      <Item value="Domain" priority="0" />
+      <Item value="Invoice" priority="6" />
+      <Item value="TaxesService" priority="1" />
+      <Item value="customer" priority="5" />
+      <Item value="Assert" priority="0" />
+      <Item value="private" priority="6" />
+      <Item value="_invoices" priority="1" />
+      <Item value="invoice" priority="11" />
+      <Item value="List&lt;Invoice&gt;" priority="0" />
+      <Item value="Rhino.Mocks" priority="0" />
+      <Item value="MockRepository" priority="1" />
+      <Item value="_mockRepository" priority="7" />
+      <Item value="Repository" priority="2" />
+      <Item value="SetUp" priority="0" />
+      <Item value="_mockCustomerRepository" priority="2" />
+      <Item value="ICustomerRepository" priority="0" />
+      <Item value="_mockTaxesRepository" priority="3" />
+      <Item value="ITaxesRepository" priority="0" />
+      <Item value="_mockInvoiceRepository" priority="2" />
+      <Item value="IInvoiceRepository" priority="0" />
+      <Item value="TearDown" priority="0" />
+      <Item value="View" priority="0" />
+      <Item value="_mockInvoiceView" priority="13" />
+      <Item value="IInvoiceView" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="LastCall" priority="3" />
+      <Item value="invoicePresenter" priority="0" />
+      <Item value="InvoicePresenter" priority="0" />
+      <Item value="event" priority="3" />
+      <Item value="EventHandler" priority="2" />
+      <Item value="Presenter" priority="0" />
+      <Item value="_invoiceView" priority="12" />
+      <Item value="getCustomerEventRaiser" priority="0" />
+      <Item value="EventArgs" priority="0" />
+      <Item value="const" priority="3" />
+      <Item value="Expect" priority="4" />
+      <Item value="CUSTOMER_CODE" priority="0" />
+      <Item value="_customerRepository" priority="0" />
+      <Item value="customerCode" priority="2" />
+      <Item value="int" priority="6" />
+      <Item value="decimal" priority="1" />
+      <Item value="quantity" priority="1" />
+      <Item value="InvoiceItem" priority="5" />
+      <Item value="invoiceItem" priority="4" />
+      <Item value="amount" priority="0" />
+      <Item value="ITaxesService" priority="0" />
+      <Item value="taxesService" priority="2" />
+      <Item value="List" priority="0" />
+      <Item value="_taxesRepository" priority="0" />
+      <Item value="Quantity" priority="0" />
+      <Item value="Amount" priority="0" />
+      <Item value="if" priority="6" />
+      <Item value="_invoice" priority="2" />
+      <Item value="return" priority="6" />
+      <Item value="var" priority="2" />
+      <Item value="GetInvoice" priority="0" />
+      <Item value="_invoiceRepository" priority="0" />
+      <Item value="true" priority="3" />
+      <Item value="false" priority="2" />
+      <Item value="this" priority="9" />
+      <Item value="otherInvoice" priority="2" />
+      <Item value="foreach" priority="1" />
+      <Item value="for" priority="1" />
+      <Item value="i" priority="3" />
+      <Item value="in" priority="0" />
+      <Item value="totalHashCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="0" />
+      <Item value="Count" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="StrictMock" priority="3" />
+      <Item value="VerifyAll" priority="0" />
+      <Item value="Replay" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.LastCall">
+      <Item value="IgnoreArguments" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.View.IInvoiceView">
+      <Item value="GetCustomer" priority="0" />
+      <Item value="AddInvoiceLine" priority="0" />
+      <Item value="CalculateTotals" priority="0" />
+      <Item value="SaveInvoice" priority="0" />
+      <Item value="CustomerCode" priority="2" />
+      <Item value="CustomerFirstName" priority="0" />
+      <Item value="CustomerLastName" priority="0" />
+      <Item value="Quantity" priority="0" />
+      <Item value="Amount" priority="0" />
+      <Item value="InvoiceLineItems" priority="0" />
+      <Item value="SubTotal" priority="0" />
+      <Item value="TaxCalculations" priority="0" />
+      <Item value="Total" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="GetEventRaiser" priority="0" />
+      <Item value="Return" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IEventRaiser">
+      <Item value="Raise" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.EventArgs">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="Call" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Repository.ICustomerRepository">
+      <Item value="FindCustomerByCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.Customer">
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.Invoice">
+      <Item value="AddLineItem" priority="1" />
+      <Item value="InvoiceItems" priority="13" />
+      <Item value="SubTotal" priority="1" />
+      <Item value="TaxCalculations" priority="1" />
+      <Item value="Total" priority="1" />
+      <Item value="GetHashCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Repository.ITaxesRepository">
+      <Item value="GetTaxesService" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Domain.InvoiceItem">
+      <Item value="Quantity" priority="1" />
+      <Item value="Amount" priority="1" />
+      <Item value="Equals" priority="0" />
+      <Item value="GetHashCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Gaddzeit.Kata.Repository.IInvoiceRepository">
+      <Item value="SaveInvoice" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="GetHashCode" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

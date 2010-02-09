@@ -1,8 +1,9 @@
 ﻿README
 5 Day TDD Kata: From Single Class, to Teasing Out Domain, to Model-View-Presenter with Mocks
 David Gadd
-February 3, 2010
+February 3-8, 2010
 Email: gaddzeit@yahoo.ca
+Twitter: gaddzeit
 URL: http://codingsolutions.blogspot.com/2010/02/5-day-tdd-kata.html
 
 While the Calculator kata (see http://osherove.com/tdd-kata-1/) has been tremendously beneficial, I am wanting to experiment with a larger TDD kata that attempts test coverage at 3 levels:
@@ -18,7 +19,7 @@ DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
 DAY 2: TEASING OUT DOMAIN OBJECT: ITaxesService
 DAY 3: INVOICE APPLIES TAXES TO ITEMS VIA ITaxesService
 DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS
-DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS
+DAY 5: InvoicePresenter ADDS AND DISPLAYS INVOICE WITH TAXES AND TOTALS
 
 Detail
 DAY 1: TAXES ARE VALIDATED AS THEY ARE ADDED TO CITY
@@ -76,11 +77,34 @@ DAY 4: AddTaxesPresenter INCREASES TAX GRID ROWS
       c) it calls ITaxesService.AddTax() to add the Tax.
       d) it refreshes ITaxesView.TaxesDisplay from ITaxesService.Taxes, which includes the just-added Tax instance.
 
-DAY 5: AddInvoicePresenter INCREASES INVOICE GRID ROWS
+DAY 5: InvoicePresenter ADDS AND DISPLAYS INVOICE WITH TAXES AND TOTALS
 
-   1. Mock IInvoiceRepository and IInvoiceView 
-   2. Validate that AddInvoiceLineItem event adds LineItem to repository and returns incremented list of items.
-   3. Validate that exceptions are assigned to ExceptionDisplay string.
+      The culmination. This kata works with everything you have built leading up to it.
 
+   1. Create a namespace for Repository.
+   2. Create CustomerTests. Verify when Customer adds an Invoice, that Customer.Invoices increments.
+   3. Create InvoicePresenterTests with 4 mocked interfaces: ITaxesRepository, ICustomerRepository, IInvoiceRepository, and IInvoiceView.
+   4. Create the following IInvoiceView events, each with a default EventHandler:
+          * GetCustomer event
+          * AddInvoiceLine event
+          * CalculateTotals event
+          * SaveInvoice event 
+   5. For each one, verify that InvoicePresenter's constructor attaches that event to an event handler. (You can expect each event to be assigned to null, and instruct the mock to ignore the argument. For subsequent tests, you only need to get the event if the current test needs to verify behaviour that occurs when the event is raised.)
+   6. When GetCustomer event is raised, verify that
+      a) IInvoiceView.CustomerCode is assigned to ICustomerRepository.FindCustomerByCode().
+      b) the returned Customer is retrieved, and FirstName and LastName are assigned to IInvoiceView.FirstName and IInvoiceView.LastName. 
+   7. When AddInvoiceLine event is raised, verify that:
+      a) IInvoiceView.Quantity and IInvoiceView.Amount are retrieved and assigned to InvoiceItem constructor.
+      b) ITaxesRepository.GetTaxesService() is called and returns ITaxesService.
+      c) Invoice is instantiated with ITaxesService, and InvoiceItem is added to Invoice.AddLineItem()
+      d) Invoice.LineItems is assigned to IInvoiceView.InvoiceLineItems property.
+      e) When the last expectation fails, add equality checking (IsEqual() and GetHashCode()) to InvoiceItem class, based on properties of InvoiceItem (quantity and amount.)
+   8. When CalculateTotals event is raised, verify that:
+      a) Invoice.SubTotal is assigned to IInvoiceView.Subtotal.
+      b) Invoice.TaxCalculations are assigned to IInvoiceView.TaxCalculations.
+      c) Invoice.Total is assigned to IInvoiceView.Total. 
+   9. When SaveInvoice event is raised, verify that:
+      a) IInvoiceRepository.SaveInvoice() is passed the current Invoice instance.
+      b) When this expecation fails, add equality checking (IsEqual() and GetHashCode() to Invoice, based on 0 items equal, or equality of items.
 
 [end]

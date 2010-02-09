@@ -1,0 +1,7 @@
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\bin\Debug\Gaddzeit.Kata.Repository.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\bin\Debug\Gaddzeit.Kata.Repository.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\obj\Debug\Gaddzeit.Kata.Repository.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\obj\Debug\Gaddzeit.Kata.Repository.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\bin\Debug\Gaddzeit.Kata.Domain.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.Repository\bin\Debug\Gaddzeit.Kata.Domain.pdb

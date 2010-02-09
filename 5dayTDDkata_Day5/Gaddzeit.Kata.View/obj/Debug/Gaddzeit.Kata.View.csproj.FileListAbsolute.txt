@@ -1,0 +1,14 @@
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.View.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.View.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\obj\Debug\Gaddzeit.Kata.View.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\obj\Debug\Gaddzeit.Kata.View.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.Domain.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day4\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.Domain.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.View.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.View.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.Domain.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\bin\Debug\Gaddzeit.Kata.Domain.pdb
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\obj\Debug\Gaddzeit.Kata.View.dll
+C:\SourceCode\dotNet\5dayTDDkata_Day5\Gaddzeit.Kata.View\obj\Debug\Gaddzeit.Kata.View.pdb
